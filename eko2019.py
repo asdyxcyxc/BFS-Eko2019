@@ -3,8 +3,7 @@ import struct
 import socket
 from contextlib import closing
 
-# TARGET_ADDRESS = ('127.0.0.1', 0xD431)
-TARGET_ADDRESS = ('10.71.48.73', 0xD431)
+TARGET_ADDRESS = ('127.0.0.1', 0xD431)
 
 
 def get_header():
